@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+}
+body{
+    background-color: #00000029;
+}
+.firstflex{
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+    margin: 30px;
+    gap: 30px;
+
+}
+.firstflex li::after{
+    content:"";
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    margin-left: 25px;
+    background-color: black;
+    align-items: center;
+}
+.firstflex li{
+    list-style: none;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border: 8px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+.mail{
+    color: black;
+}
+.secondflex{
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 100px;
+}
+.thirdflex{
+    flex-direction: column;
+    display: flex;
+}
+.thirdflex a{
+   color: black;
+   display: flex;
+   flex-direction: column;
+}
+.fourthflex{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 950px;
+    margin-top: -470px;
+}
+.fourthflex input{
+    border: none;
+    border-bottom: 1px solid #959595;
+    background: transparent;
+    outline: none;
+    width: 400px;
+    height: 90px;
+    align-items: center;
+}
+.main{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: -578px;
+}
+.orange {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+    margin-bottom: 120px;
+    margin-left: 485px;
+}
+.orange-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5d15;
+    padding: 12px 13px;
+    border-radius: 3px;
+}
+.orange-btn span {
+    font-size: 12px;
+    vertical-align: middle;
+  }
+.orange-btn span::before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
